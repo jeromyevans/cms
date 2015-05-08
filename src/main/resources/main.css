@@ -1,0 +1,96 @@
+body { 
+  background-color: #FFFFFF;
+	margin: 0px; 
+	padding:0px;
+	/* the item below is an IE5 work-around - IE5 will center block elements using text-align, so this centers the container.  A side effect of this is that by all text is now center aligned by default */
+	text-align:center;   	  
+}
+
+.container {
+	background-position: top center;
+	position: relative;
+	/* the following style horizontally centers the container - see the IE5 hack above though 
+	By setting the width to a fixed value and the horizontal margins to auto */
+  width: 1028px;         /* IE5 width=wpx + left and right borders */
+	margin:5px auto;
+	padding: 0px 0px 40px 0px;
+	background-color: #FFFFFF; 	 
+	color:#666666;
+}
+
+.header {
+	background:url(images/titlebar.jpg);
+	display: block;
+	height: 77px;
+}
+
+.content {
+	background:url(images/subtitlebar.jpg) no-repeat;
+	padding: 20px 0px 0px 0px;
+}
+
+.menu {
+	display:block;
+	float: right;
+	margin-right: 20px;
+}
+
+.menu li {
+list-style: none;
+}
+
+.menu a, a:visited {
+  color: #666666;
+	text-decoration:none;
+}
+
+a:hover {
+  color: #333333;
+	text-decoration:underline;
+}
+
+img .subtitle {
+	display: block;
+	vertical-align: top;
+	margin: 10px;
+	border: 0px;
+}
+.content .note {
+    width: 400px;
+	/* the following style horizontally centers the container - see the IE5 hack above though 
+	By setting the width to a fixed value and the horizontal margins to auto */
+	margin:0px auto;
+    /*background:url(images/notebg.png) repeat;*/
+	background-color: #EEEEEE;
+	border: 1px solid #CCCCCC;
+	padding: 0px 10px 10px 10px;
+}
+
+.note h1 {
+	background:url(images/headingbar.png) repeat;
+	text-align:center;
+	color: #FFFFFF;
+	margin: 0px -10px 10px -10px;
+	font-size: 14px;
+}   
+
+.note p {
+}   
+
+.form_item {
+  text-align: left;
+	margin: 2px 10px 2px 0px;
+	display: block;
+	
+	vertical-align:middle;
+}
+
+.form_item_text {
+  text-align: right;
+	margin: 2px 10px 0px 0px;
+	display: block;
+	float: left;
+	
+	width: 50%;
+	vertical-align: middle;
+}
